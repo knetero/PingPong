@@ -1,0 +1,55 @@
+{
+  "id": 4,
+  "username": "emma_brown",
+  "profile_photo": "/images/profile8.svg",
+  "friends": [
+    {
+      "user": {
+        "id": 1,
+        "username": "john_doe",
+        "profile_photo": "/images/test.png",
+        "is_online": true
+      },
+      "freindship_id": 1,
+      "is_accepted": true,
+      "blocked": false,
+      "is_user_from": true
+    },
+    {
+      "user": {
+        "id": 3,
+        "username": "sam_rogers",
+        "profile_photo": "/images/avatar3.svg",
+        "is_online": true
+      },
+      "freindship_id": 2,
+      "is_accepted": true,
+      "blocked": false,
+      "is_user_from": true
+    },
+    {
+      "user": {
+        "id": 2,
+        "username": "jane_smith",
+        "profile_photo": "/images/profile7.svg",
+        "is_online": false
+      },
+      "freindship_id": 3,
+      "is_accepted": false,
+      "blocked": false,
+      "is_user_from": true
+    },
+    {
+      "user": {
+        "id": 5,
+        "username": "chris_wilson",
+        "profile_photo": "/images/avatar5.svg",
+        "is_online": true
+      },
+      "freindship_id": 4,
+      "is_accepted": true,
+      "blocked": false,
+      "is_user_from": true
+    }
+  ]
+}

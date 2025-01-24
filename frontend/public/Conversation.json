@@ -1,0 +1,66 @@
+{
+    "username": "userNameLoading",
+    "messages": [
+      {
+        "messages_id": 27,
+        "chat_id": null,
+        "sender": "john_doe",
+        "receiver": "userNameLoading",
+        "message_content": "How are you?",
+        "message_date": "2024-11-21T21:04:58.110429Z",
+        "user_one": 1,
+        "user_two": 8
+      },
+      {
+        "messages_id": 26,
+        "chat_id": null,
+        "sender": "userNameLoading",
+        "receiver": "john_doe",
+        "message_content": "Hello, John!",
+        "message_date": "2024-11-21T21:04:15.127574Z",
+        "user_one": 8,
+        "user_two": 1
+      },
+      {
+        "messages_id": 1,
+        "chat_id": null,
+        "sender": "sam_rogers",
+        "receiver": "userNameLoading",
+        "message_content": "Hey, how's it going?",
+        "message_date": "2024-03-09T14:30:45Z",
+        "user_one": 7,
+        "user_two": 8
+      },
+      {
+        "messages_id": 28,
+        "chat_id": null,
+        "sender": "jane_smith",
+        "receiver": "userNameLoading",
+        "message_content": "Are we still on for tonight?",
+        "message_date": "2024-11-21T22:15:30.123456Z",
+        "user_one": 2,
+        "user_two": 8
+      },
+      {
+        "messages_id": 29,
+        "chat_id": null,
+        "sender": "userNameLoading",
+        "receiver": "jane_smith",
+        "message_content": "Yes, absolutely! See you soon.",
+        "message_date": "2024-11-21T22:16:00.654321Z",
+        "user_one": 8,
+        "user_two": 2
+      },
+      {
+        "messages_id": 30,
+        "chat_id": null,
+        "sender": "userNameLoading",
+        "receiver": "sam_rogers",
+        "message_content": "Can you help me with something?",
+        "message_date": "2024-11-21T23:00:00.987654Z",
+        "user_one": 8,
+        "user_two": 3
+      }
+    ]
+  }
+  

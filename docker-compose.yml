@@ -1,0 +1,95 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:16
+    ports: 
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: transc_db
+    networks:
+      - nat
+    volumes:
+      - postgres_v:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: backend/back_end
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    ports:
+      - 8000:8000
+    volumes:
+      - ./env/.env:/app/.env
+      - backend_v:/app/backend
+    networks:
+      - nat
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./env/.env:/app/frontend/.env
+      - front_v:/app/frontend
+    networks:
+      - nat
+
+  nginx:
+    build:
+      context: nginx
+      dockerfile: Dockerfile
+    volumes:
+      - front_v:/var/www/frontend
+    ports:
+      - 443:443
+    networks:
+      - nat
+    depends_on:
+      - frontend
+
+  admin:
+    image: adminer
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - 8080:8080
+    networks:
+      - nat
+
+  redis:
+    image: redis
+    restart: always
+    ports:
+      - 6379:6379
+    networks:
+      - nat
+
+networks:
+  nat:
+    driver: bridge
+
+volumes:
+  postgres_v:
+    driver_opts:
+      type: none
+      device: /Users/${USER}/Desktop/db
+      o: bind
+  front_v:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '${PWD}/frontend'
+  backend_v:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '${PWD}/backend/back_end'
+

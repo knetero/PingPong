@@ -1,0 +1,36 @@
+[
+    {
+      "userName": "john",
+      "userId": 1,
+      "name" : "John Wick",
+      "avatar": "/images/avatarprofile.svg",
+      "status": "Online",
+      "level": 1,
+      "score": "5-4",
+      "result": "Win",
+      "map": "Blue"
+    },
+    {
+      "userName": "lucy",
+      "userId": 2,
+      "name" : "lucy wilimas",
+      "avatar": "/images/avatar3.svg",
+      "status": "Offline",
+      "level": 2,
+      "score": "5-4",
+      "result": "Win",
+      "map": "Blue"
+    },
+    {
+      "userName": "malcom",
+      "userId": 3,
+      "name" : "Malcom smith",
+      "avatar": "/images/avatarprofile.svg",
+      "status": "Offline",
+      "level": 1,
+      "score": "3-4",
+      "result": "Lose",
+      "map": "Blue"
+    }
+  ]
+  

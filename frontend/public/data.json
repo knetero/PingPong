@@ -1,0 +1,235 @@
+[
+      {
+        "userName": "john",
+        "userId": 1,
+        "name": "John Wick",
+        "avatar": "/images/avatarprofile.svg",
+        "status": "Online",
+        "level": 1,
+        "score": "5-4",
+        "result": "Win",
+        "map": "Blue",
+        "conversations": [
+          {
+            "friendId": 2,
+            "messages": [
+              {
+                "content": "Hi John, let's meet for the game tonight!",
+                "time": "02:22 PM",
+                "sender": 2,
+                "reciever": 1
+              },
+              {
+                "time": "02:25 PM",
+                "content": "How about 7 PM?",
+                "sender": 1,
+                "reciever": 2
+              }
+            ]
+          },
+          {
+            "friendId": 3,
+            "messages": [
+              {
+                "time": "09:10 AM",
+                "content": "Good morning John, are you joining the competition?",
+                "sender": 3,
+                "reciever": 1
+              },
+              {
+                "time": "09:12 AM",
+                "content": "Good morning! Yes, I'll be there!",
+                "sender": 1,
+                "reciever": 3
+              },
+              {
+                "time": "09:14 AM",
+                "content": "Great! See you there.",
+                "sender": 3,
+                "reciever": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "userName": "lucy",
+        "userId": 2,
+        "name": "lucy wilimas",
+        "avatar": "/images/avatar3.svg",
+        "status": "Online",
+        "level": 2,
+        "score": "6-5",
+        "result": "Loss",
+        "map": "Green",
+        "conversations": [
+          {
+            "friendId": 1,
+            "messages": [
+              {
+                "time": "02:22 PM",
+                "content": "Hi John, let's meet for the game tonight!",
+                "sender": 2,
+                "reciever": 1
+              },
+              {
+                "time": "02:23 PM",
+                "content": "Absolutely! What time works for you?",
+                "sender": 1,
+                "reciever": 2
+              },
+              {
+                "time": "02:25 PM",
+                "content": "How about 7 PM?",
+                "sender": 2,
+                "reciever": 1
+              }
+            ]
+          },
+          {
+            "friendId": 3,
+            "messages": [
+              {
+                "time": "03:30 PM",
+                "content": "Hey Max, are we still on for tomorrow?",
+                "sender": 2,
+                "reciever": 3
+              },
+              {
+                "time": "03:35 PM",
+                "content": "Yeah, looking forward to it!",
+                "sender": 3,
+                "reciever": 2
+              },
+              {
+                "time": "03:37 PM",
+                "content": "Awesome, see you then.",
+                "sender": 2,
+                "reciever": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "userName": "malcom",
+        "userId": 3,
+        "name": "Malcom Smith",
+        "avatar": "/images/avatarprofile.svg",
+        "status": "Offline",
+        "level": 3,
+        "score": "4-3",
+        "result": "Win",
+        "map": "Red",
+        "conversations": [
+          {
+            "friendId": 1,
+            "messages": [
+              {
+                "time": "09:10 AM",
+                "content": "Good morning John, are you joining the competition?",
+                "sender": 3,
+                "reciever": 1
+              },
+              {
+                "time": "09:12 AM",
+                "content": "Good morning! Yes, I'll be there!",
+                "sender": 1,
+                "reciever": 3
+              },
+              {
+                "time": "09:14 AM",
+                "content": "Great! See you there.",
+                "sender": 3,
+                "reciever": 1
+              }
+            ]
+          },
+          {
+            "friendId": 4,
+            "messages": [
+              {
+                "time": "10:00 AM",
+                "content": "Max, did you complete the task?",
+                "sender": 3,
+                "reciever": 4
+
+              },
+              {
+                "time": "10:05 AM",
+                "content": "Yes, all set!",
+                "sender": 4,
+                "reciever": 3
+              },
+              {
+                "time": "10:10 AM",
+                "content": "Great! Let's catch up later.",
+                "sender": 3,
+                "reciever": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "userId": 4,
+        "name": "Max Doe",
+        "avatar": "/images/avatar4.svg",
+        "status": "Offline",
+        "level": 4,
+        "score": "8-7",
+        "result": "Loss",
+        "map": "Yellow",
+        "conversations": [
+          {
+            "friendId": 2,
+            "messages": [
+              {
+                "time": "03:30 PM",
+                "content": "Hey Max, are we still on for tomorrow?",
+                "sender": 2,
+                "reciever": 4
+              },
+              {
+                "time": "03:35 PM",
+                "content": "Yeah, looking forward to it!",
+                "sender": 4,
+                "reciever":2
+              },
+              {
+                "time": "03:37 PM",
+                "content": "Awesome, see you then.",
+                "sender": 2,
+                "reciever":4
+              }
+            ]
+          },
+          {
+            "friendId": 3,
+            "messages": [
+              {
+                "time": "10:00 AM",
+                "content": "Max, did you complete the task?",
+                "sender": 3,
+                "reciever":4
+              },
+              {
+                "time": "10:05 AM",
+                "content": "Yes, all set!",
+                "sender": 4,
+                "reciever":3
+              },
+              {
+                "time": "10:10 AM",
+                "content": "Great! Let's catch up later.",
+                "sender": 3,
+                "reciever":4
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+
+  

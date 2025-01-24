@@ -1,0 +1,70 @@
+[
+    {
+    
+      "userA": 2,
+      "userB": 1,
+      "messages": [
+        {
+          "content": "Hi John, let's meet for the game tonight!",
+          "time": "02:22 PM",
+          "sender": 2,
+          "receiver": 1
+        },
+        {
+          "content": "How about 7 PM?",
+          "time": "02:25 PM",
+          "sender": 1,
+          "receiver": 2
+        }
+      ]
+    },
+    {
+      "userA": 1,
+      "userB": 3,
+      "messages": [
+        {
+          "content": "Good morning John, are you joining the competition?",
+          "time": "09:10 AM",
+          "sender": 3,
+          "receiver": 1
+        },
+        {
+          "content": "Good morning! Yes, I'll be there!",
+          "time": "09:12 AM",
+          "sender": 1,
+          "receiver": 3
+        },
+        {
+          "content": "Great! See you there.",
+          "time": "09:14 AM",
+          "sender": 3,
+          "receiver": 1
+        }
+      ]
+    },
+    {
+      "userA": 4,
+      "userB": 1,
+      "messages": [
+        {
+          "content": "Hey Max, are we still on for tomorrow?",
+          "time": "03:30 PM",
+          "sender": 1,
+          "receiver": 4
+        },
+        {
+          "content": "Yeah, looking forward to it!",
+          "time": "03:35 PM",
+          "sender": 4,
+          "receiver": 1
+        },
+        {
+          "content": "Awesome, see you then.",
+          "time": "03:37 PM",
+          "sender": 1,
+          "receiver": 4
+        }
+      ]
+    }
+  ]
+  
